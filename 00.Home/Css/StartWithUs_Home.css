@@ -1,0 +1,158 @@
+@font-face {
+	font-family: 'BMJUA'; 
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff'); /* 웹폰트 글씨체 URL 선언 */
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-weight: 500; /*글씨 굵기 선언*/
+	font-family: 'BMJUA'; /*@font-face 글씨 선선언*/
+}
+
+a:link{ /*마우스로 a 태그 누를때*/
+	color:black;
+	text-decoration: none;
+}
+
+a:visited{ /*a 태그방문 했을경우에*/
+	color:black;
+	text-decoration: none;
+}
+
+a:hover{ /*a 태그에 마우스올릴경우 */
+	color: aquamarine;
+	text-decoration: none;
+}
+
+.div_layout_main_dashbord{
+	display: flex;	/*flex 형태..그러니까 width , height 의 원하는 공간만큼??*/
+  justify-content: center; /*수평 중앙정령 - flex 필요*/
+  align-items: center; /*수직 중앙정령 - flex 필요*/
+	margin-top: 15px;
+}
+
+.div_layout_main_logo{
+	padding-right:15px;
+	width:35%; 
+	text-align:right;
+	display: inline-block;
+	height: 100%;
+}
+
+.a_site_name{
+	font-size:28px;
+}
+
+.div_layout_search_main{
+	display: inline-block;
+	padding: 10px;
+  height: 30%;
+	width: 30%;
+}
+
+.search-btn{
+	text-decoration: none;
+  float: right;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.div_search > .search-btn{
+  background-color: #fff;
+}
+
+.txt_search{
+	display: flex;
+  padding: 0;
+  width: 0px;
+  border:none;
+  background: none;
+  outline: none;
+  float: left;
+  font-size: 1rem;
+  line-height: 50px;
+  transition: .4s;
+	font-size: 20px
+}
+.div_search:hover > .txt_search{
+  width: 85%;
+  padding: 0 6px;
+}
+
+.div_search{
+	display: inline-block;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 30px;
+  width:50px;
+	height: 50px;
+  transition: 0.4s; /*변환 시간 설정 */
+}
+
+.div_search:hover{
+	box-shadow: 0px 0px .5px 1px black;
+  width: 100%;
+}
+
+.btn_search{
+	text-decoration: none;
+  float: right;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.div_layout_login{
+	display: inline;
+	text-align: left;
+	width: 35%;
+	font-size: 18px;
+	padding-left:15px;
+}
+
+.div_layout_main_intro{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 17px;
+	height: 80%;
+}
+
+.div_layout_main_category{
+	margin-top: 15px;
+	background-color: aquamarine;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn_community{
+	font-size: 30px;
+}
+.btn_category{
+	font-size: 20px;
+	margin-left: 5%;
+}
+
+.div_footer{
+	text-align: center;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  color: black;
+  background: white;
+}
