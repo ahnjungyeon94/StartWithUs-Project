@@ -156,3 +156,18 @@ a:hover{ /*a 태그에 마우스올릴경우 */
   color: black;
   background: white;
 }
+
+.div_layout_register_id{
+	text-align: center;
+}
+
+.div_already_id{
+	margin-top: 10px;
+	font-size: 50px;
+}
+
+.a_login{
+	margin-left: 5px;
+	font-size: 50px;
+}
+

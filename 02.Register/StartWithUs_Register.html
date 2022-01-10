@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<link rel="stylesheet" type="text/css" href="Css/StartWithUs_Register.css" />
+		<script type="text/javascript" src="Script/StartWithUs_Register.js"></script>
+		<title>회원가입</title>
+	</head>
+<body>
+	<div class="div_layout_main_dashbord">
+		<div class="div_layout_main_logo">
+				<a class="a_site_name" href="../00.Home/StartWithUs_Home.html">Start With Us </a>
+		</div>
+	</div>
+	<div class="div_register_main">
+		<div class="div_layout_register_info">
+			<div class="div_layout_register_type">
+				<span class="span_id_nm">
+					아이디(email)
+				</span>
+				<span class="span_id" id="span_id">
+					<input type="text" class="txt_id" id="txt_id" placeholder="email*">
+				</span>
+				<span class="span_id" id="span_Separator">
+					@
+				</span>
+				<span class="span_id" id="span_domain">
+					<select class="txt_id" id="sel_domain">
+						<option selected="selected" value disabled>선택해주세요</option>
+						<option value="naver.com">naver.com</option>
+						<option value="hanmail.net">hanmail.net</option>
+						<option value="daum.net">daum.net</option>
+						<option value="gmail.com">gmail.com</option>
+						<option value="nate.com">nate.com</option>
+						<option value="hotmail.com">hotmail.com</option>
+						<option value="outlook.com">outlook.com</option>
+						<option value="icloud.com">icloud.com</option>
+						<option value="_manual">직접입력</option>
+						</select>
+				</span>
+			</div>
+			<div class="div_layout_register_type">
+				<span class="span_id_nm">
+					비밀번호
+				</span>
+				<span class="span_pw" id="span_pw">
+					<input type="password" class="txt_other" id="txt_pw" placeholder="비밀번호">
+				</span>
+			</div>
+			<div class="div_layout_register_type">
+				<span class="span_id_nm">
+					비밀번호
+				</span>
+				<span class="span_pw" id="span_pw_chk">
+					<input type="password" class="txt_other" id="txt_pw_chk" placeholder="비밀번호 확인">
+				</span>
+			</div>
+			<div class="div_layout_register_type">
+				<span class="span_id_nm">
+					별명
+				</span>
+				<span class="span_nickname" id="span_nickname">
+					<input type="password" class="txt_other" id="txt_nickname" placeholder="별명">
+				</span>
+			</div>
+			<div class="div_layout_register_type_2">
+				<span class="span_id_nm">
+					휴대폰 번호
+				</span>
+				<span class="span_phonenumber" id="span_phonenumber">
+					<input type="password" class="txt_other" id="txt_phonenumber" placeholder="휴대폰 번호(-없이)">
+				</span>
+			</div>
+			<div class="div_layout_register_type_agree">
+				<span class="span_id_nm">
+					Start With Us 약관에 동의해주세요.
+				</span>
+				<input  type="checkbox" id="chk_register_all_agree" class="chk_register_all_agree" value="all"> 모두 동의합니다.
+			</div>
+			<div class="div_layout_register_type_agree_detail">
+				<span class="span_id_nm">
+					<input  type="checkbox" id="chk_register_age_agree" class="chk_register_detail_agree" value="age"> 만 14세 이상입니다. [필수]
+				</span>
+				<span class="span_id_nm">
+					<input  type="checkbox" id="chk_register_terms_agree" class="chk_register_detail_agree" value="age"> 이용약관 [필수] 
+				</span>
+				<span class="span_id_nm">
+					<input  type="checkbox" id="chk_register_personal_agree" class="chk_register_detail_agree" value="age"> 개인정보 이용 및 수집 동의 [필수]
+				</span>
+				<span class="span_id_nm">
+					<input  type="checkbox" id="chk_register_email_agree" class="chk_register_detail_agree" value="age"> 이벤트, 프로모션 알림 메일 및 SMS 수신 [선택] 
+				</span>
+			</div>
+			<div class="div_register_process">
+				<input type="button" id="btn_register" class="btn_register" value="회원가입하기"> 
+			</div>
+			<div class="div_already_id">
+				이미 회원가입이 되어있으시다면?
+				<a href="../01.Login/StartWithUs_Login.html" class="a_login"> 로그인
+			</div>
+		</div>
+	</div>
+</body>
+</html>
