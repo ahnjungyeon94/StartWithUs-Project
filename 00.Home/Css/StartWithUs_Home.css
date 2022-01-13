@@ -197,7 +197,7 @@ a:hover{ /*a 태그에 마우스올릴경우 */
 	height: 200px;
 	object-fit: cover;
 	margin-left: 30px;
-	align:left;
+	/* align:left; */
 	border-radius: 5px;
 }
 
