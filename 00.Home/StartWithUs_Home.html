@@ -3,14 +3,22 @@
 	<head> 
 		<link rel="stylesheet" type="text/css" href="Css/StartWithUs_Home.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
-		<script type="text/javascript" src="script/StartWithUs_Home.js"></script>
+		
 
 		<title>SWith Us</title>
 	</head>
 <body>
 	<div class="div_layout_main_dashbord">
 			<div class="div_layout_main_logo">
-					<a class="a_site_name" href="StartWithUs_Home.html">Start With Us </a>
+				<a class="a_site_name" href="StartWithUs_Home.html"> 
+					<img src="../img/제목 없음2.png" class="img_layout_logo" alt="Start With Us">
+				</a>
+			</div>
+			<div class="div_layout_main_category">
+				<a class="btn_category" id="btn_community" href="#">커뮤니티</a>
+				<a class="btn_category" id="btn_store" href="#">스토어</a>
+				<a class="btn_category" id="btn_job" href="#">채용</a>
+				<a class="btn_category" id="btn_adv" href="#">광고</a>
 			</div>
 			<div class="div_layout_search_main">
 				<div class="div_search">
@@ -25,16 +33,19 @@
 					<a href="../02.Register/StartWithUs_Register.html" style="margin-left:20px">회원가입</a>
 			</div>
 	</div>
-	<div class ="div_layout_main">
+	<div class ="div_layout_category_store" id="div_layout_category_store">
 		<div class ="div_layout_main_intro" id="div_layout_main_intro">
-						방안에서 볼 수 있는 모든 꿈들의 시작!   각종 예술부터 문화생활까지 !
-				<div class="div_layout_main_category">
-					<a class="btn_community" onmouseover="categroy_mouse_over('community')"  id="btn_community" href="#">커뮤니티</a>
-						<a class="btn_category" onmouseover="categroy_mouse_over('music')" id="btn_music" href="#">음악</a>
-						<a class="btn_category" onmouseover="categroy_mouse_over('painting')"  id="btn_painting" href="#">미술</a>
-						<a class="btn_category" onmouseover="categroy_mouse_over('book')"  id="btn_book" href="#">책</a>
-						<a class="btn_category" onmouseover="categroy_mouse_over('interior')"  id="btn_interior" href="#">인테리어</a>
-						<a class="btn_category" onmouseover="categroy_mouse_over('lecture')"  id="btn_lecture" href="#"	>강의</a>
+				<!-- 테스트 카테고리 진행중.. -->
+				<div class="div_layout_music">
+					<div class="div_music">
+						음 악
+					</div>
+					<div class="div_layout_item" id="div_music_item">
+							<img class="img_store" src="..//img/테스트음악앨범1.JPG"  alt="Music" >
+							<img class="img_store"  src="..//img/테스트음악앨범2JPG.JPG" alt="Start With Us">
+							<img class="img_store"  src="..//img/테스트음악앨범3.JPG"  alt="Start With Us">
+							<img class="img_store"  src="..//img/테스트음악앨범4.JPG"  alt="Start With Us">
+					</div>
 				</div>
 		</div>  
 	</div> 
@@ -46,4 +57,5 @@
 		<p>주소 : 경기도 의정부시 신흥로232번길 5-30 602호 </p>
 	</footer>
 </body>
+<script type="text/javascript" src="script/StartWithUs_Home.js"></script>
 </html>

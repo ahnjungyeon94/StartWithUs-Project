@@ -21,8 +21,9 @@ a:visited{ /*a 태그방문 했을경우에*/
 }
 
 a:hover{ /*a 태그에 마우스올릴경우 */
-	color: aquamarine;
+	color: salmon;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .div_layout_main_dashbord{
@@ -33,14 +34,20 @@ a:hover{ /*a 태그에 마우스올릴경우 */
 }
 
 .div_layout_main_logo{
+	padding-top: 5px;
 	padding-right:15px;
-	width:35%; 
+	width:15%; 
 	text-align:right;
 	display: inline-block;
 	height: 100%;
 }
 
+.img_layout_logo{
+	cursor: pointer;
+}
+
 .a_site_name{
+	margin-top: 5px;
 	font-size:28px;
 }
 
@@ -91,7 +98,7 @@ a:hover{ /*a 태그에 마우스올릴경우 */
   background-color: #fff;
   border: 1px solid black;
   border-radius: 30px;
-  width:50px;
+  width:100%;
 	height: 50px;
   transition: 0.4s; /*변환 시간 설정 */
 }
@@ -117,7 +124,7 @@ a:hover{ /*a 태그에 마우스올릴경우 */
 .div_layout_login{
 	display: inline;
 	text-align: left;
-	width: 35%;
+	width: 15%;
 	font-size: 18px;
 	padding-left:15px;
 }
@@ -130,19 +137,47 @@ a:hover{ /*a 태그에 마우스올릴경우 */
 }
 
 .div_layout_main_category{
-	margin-top: 15px;
-	background-color: aquamarine;
-	height: 70px;
+	/* margin-top: 15px; */
+	/* background-color: aquamarine; */
+	/* height: 70px; */
+	/* border-top: solid salmon 1px; */
 	display: flex;
-	justify-content: center;
+	/* justify-content: center; */
 	align-items: center;
+	text-align: left;
+	/* display: inline; */
+	width: 15%;
+	/* padding-left: 30%; */
 }
+
+.div_layout_category_store{
+	display: none;
+}
+
+.div_layout_music{
+	/* margin-top: 50px; */
+	height:240px;
+	border-top: solid gainsboro 1px;
+	border-bottom: solid gainsboro 1px;
+	/* display: none; */
+}
+
+.div_music{
+	margin-top: 5px;
+	text-align: left;
+	font-size:  20px;
+	margin-left: 30px;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+
 .btn_community{
 	font-size: 30px;
 }
 .btn_category{
 	font-size: 20px;
-	margin-left: 5%;
+	/* text-align: left; */
+	margin-right: 5%;
 }
 
 .div_footer{
@@ -155,19 +190,17 @@ a:hover{ /*a 태그에 마우스올릴경우 */
   text-align: center;
   color: black;
   background: white;
+}	
+
+.img_store{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	margin-left: 30px;
+	align:left;
+	border-radius: 5px;
 }
 
-.div_layout_register_id{
-	text-align: center;
+.div_layout_item{
+	text-align: left;
 }
-
-.div_already_id{
-	margin-top: 10px;
-	font-size: 50px;
-}
-
-.a_login{
-	margin-left: 5px;
-	font-size: 50px;
-}
-
