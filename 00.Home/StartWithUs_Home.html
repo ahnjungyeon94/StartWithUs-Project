@@ -2,23 +2,25 @@
 <html>
 	<head> 
 		<link rel="stylesheet" type="text/css" href="Css/StartWithUs_Home.css" />
+		<link rel="stylesheet" type="text/css" href="../Common/common.css" />
+
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" />
 		
-
 		<title>SWith Us</title>
+		<script src="../Common/Script/jquery-3.6.0.js"></script>
 	</head>
 <body>
 	<div class="div_layout_main_dashbord">
 			<div class="div_layout_main_logo">
 				<a class="a_site_name" href="StartWithUs_Home.html"> 
-					<img src="../img/제목 없음2.png" class="img_layout_logo" alt="Start With Us">
+					<img src="../Common/img/LogoImg.png" class="img_layout_logo" alt="Start With Us">
 				</a>
 			</div>
 			<div class="div_layout_main_category">
-				<a class="btn_category" id="btn_community" href="#">커뮤니티</a>
+				<!-- <a class="btn_category" id="btn_community" href="#">커뮤니티</a> -->
 				<a class="btn_category" id="btn_store" href="#">스토어</a>
-				<a class="btn_category" id="btn_job" href="#">채용</a>
-				<a class="btn_category" id="btn_adv" href="#">광고</a>
+				<a class="btn_category" id="btn_job" href="#" onmouseover="btn_category_mouseover('span_sub_job')">구인/구직</a>
+				<!-- <a class="btn_category" id="btn_adv" href="#">광고</a> -->
 			</div>
 			<div class="div_layout_search_main">
 				<div class="div_search">
@@ -33,22 +35,27 @@
 					<a href="../02.Register/StartWithUs_Register.html" style="margin-left:20px">회원가입</a>
 			</div>
 	</div>
-	<div class ="div_layout_category_store" id="div_layout_category_store">
-		<div class ="div_layout_main_intro" id="div_layout_main_intro">
+	<div class="div_layout_category_sub_job" id ="div_layout_category_sub_job">
+		<span class="span_sub_job" id="span_sub_job">
+			<a href="#">웹 툰/소설</a>
+		</span>
+	</div>
+	<!-- <div class ="div_layout_category_store" id="div_layout_category_store">
+		<div class ="div_layout_main_intro" id="div_layout_main_intro"> -->
 				<!-- 테스트 카테고리 진행중.. -->
-				<div class="div_layout_music">
+				<!-- <div class="div_layout_music">
 					<div class="div_music">
 						음 악
 					</div>
 					<div class="div_layout_item" id="div_music_item">
-							<img class="img_store" src="..//img/테스트음악앨범1.JPG"  alt="Music" >
-							<img class="img_store"  src="..//img/테스트음악앨범2JPG.JPG" alt="Start With Us">
-							<img class="img_store"  src="..//img/테스트음악앨범3.JPG"  alt="Start With Us">
-							<img class="img_store"  src="..//img/테스트음악앨범4.JPG"  alt="Start With Us">
+							<img class="img_store" src="../Common/img/테스트음악앨범1.JPG"  alt="Music" >
+							<img class="img_store"  src="../Common/img/테스트음악앨범2JPG.JPG" alt="Start With Us">
+							<img class="img_store"  src="../Common/img/테스트음악앨범3.JPG"  alt="Start With Us">
+							<img class="img_store"  src="../Common/img/테스트음악앨범4.JPG"  alt="Start With Us">
 					</div>
-				</div>
-		</div>  
-	</div> 
+				</div> 
+		 </div>  
+	</div>  -->
 	<div>
 	<footer class="div_footer">
 		<p>상호명 : (주) 나는 IT </p>

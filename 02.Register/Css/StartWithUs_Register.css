@@ -1,30 +1,3 @@
-@font-face {
-	font-family: 'BMJUA'; 
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff'); /* 웹폰트 글씨체 URL 선언 */
-	font-weight: normal;
-	font-style: normal;
-}
-
-body {
-	font-weight: 500; /*글씨 굵기 선언*/
-	font-family: 'BMJUA'; /*@font-face 글씨 선선언*/
-}
-
-a:link{ /*마우스로 a 태그 누를때*/
-	color:black;
-	text-decoration: none;
-}
-
-a:visited{ /*a 태그방문 했을경우에*/	
-	color:black;
-	text-decoration: none;
-}
-
-a:hover{ /*a 태그에 마우스올릴경우 */
-	color: salmon;
-	text-decoration: none;
-}
-
 .div_layout_main_dashbord{
 	margin-top: 20px;
 	font-size: 30px;

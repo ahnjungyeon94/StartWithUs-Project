@@ -1,31 +1,3 @@
-@font-face {
-	font-family: 'BMJUA'; 
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff'); /* 웹폰트 글씨체 URL 선언 */
-	font-weight: normal;
-	font-style: normal;
-}
-
-body {
-	font-weight: 500; /*글씨 굵기 선언*/
-	font-family: 'BMJUA'; /*@font-face 글씨 선선언*/
-}
-
-a:link{ /*마우스로 a 태그 누를때*/
-	color:black;
-	text-decoration: none;
-}
-
-a:visited{ /*a 태그방문 했을경우에*/
-	color:black;
-	text-decoration: none;
-}
-
-a:hover{ /*a 태그에 마우스올릴경우 */
-	color: salmon;
-	text-decoration: none;
-	cursor: pointer;
-}
-
 .div_layout_main_dashbord{
 	display: flex;	/*flex 형태..그러니까 width , height 의 원하는 공간만큼??*/
   justify-content: center; /*수평 중앙정령 - flex 필요*/
@@ -53,7 +25,7 @@ a:hover{ /*a 태그에 마우스올릴경우 */
 
 .div_layout_search_main{
 	display: inline-block;
-	padding: 10px;
+	padding: 5px;
   height: 30%;
 	width: 30%;
 }
@@ -128,13 +100,13 @@ a:hover{ /*a 태그에 마우스올릴경우 */
 	font-size: 18px;
 	padding-left:15px;
 }
-
+/* 
 .div_layout_main_intro{
 	text-align: center;
 	margin-top: 10px;
 	font-size: 17px;
 	height: 80%;
-}
+} */
 
 .div_layout_main_category{
 	/* margin-top: 15px; */
@@ -146,7 +118,7 @@ a:hover{ /*a 태그에 마우스올릴경우 */
 	align-items: center;
 	text-align: left;
 	/* display: inline; */
-	width: 15%;
+	width: 11%;
 	/* padding-left: 30%; */
 }
 
@@ -177,7 +149,8 @@ a:hover{ /*a 태그에 마우스올릴경우 */
 .btn_category{
 	font-size: 20px;
 	/* text-align: left; */
-	margin-right: 5%;
+	margin-right: 8%;
+	margin-left: 5%;
 }
 
 .div_footer{
@@ -203,4 +176,46 @@ a:hover{ /*a 태그에 마우스올릴경우 */
 
 .div_layout_item{
 	text-align: left;
+}
+
+.div_layout_category_sub_job{
+	/* display: none; */
+	border: solid gainsboro 1px ;
+	border-left: none;
+	border-right: none;
+	height: 50px;
+	/* position: relative;*/
+	/* display: inline-block;  */
+}
+
+.span_sub_job{
+	margin-left: 34%;
+}
+
+.div_layout_category_sub_job span{
+	display: inline-block;
+	padding: 10px;
+	color: #fff;
+	/* background: #ad1e51;
+	border-radius: 20px; */
+}
+
+.div_layout_category_sub_job:after{
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+
+.div_layout_category_sub_job:after{
+	border-width: 20px 6px;
+	margin-top: 4.8%;
+	margin-left: -3.3%;
+}
+
+
+.div_layout_category_sub_job:after{
+	border-color: black black transparent black;
+	top: -5px;
 }
